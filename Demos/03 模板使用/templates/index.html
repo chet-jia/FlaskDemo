@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% from '_macors.html' import qux %}
+{% block content %}
+    {% set name='baz' %}
+    <h1>Template</h1>
+    <ul>
+        <li><a href=" {{ url_for('watchlist') }}">Watchlist</a></li>
+        <li>Global: {{ bar() }}</li>
+        <li>Test: {% if name is baz %} I am baz. {% endif %}</li>
+        <li>Macro: {{ qux(amount=5) }}</li>
+    </ul>
+{% endblock %}
