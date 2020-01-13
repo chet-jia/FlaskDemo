@@ -10,6 +10,8 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/Demos/03 模板使用/templates" />
+        <option value="$MODULE_DIR$/Demos/04 表单/templates" />
+        <option value="$MODULE_DIR$/Demos/05 文件上传/templates" />
       </list>
     </option>
   </component>
